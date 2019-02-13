@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Survey Form</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+
+<link rel="stylesheet" type="text/css" href="project2.css">
+
+<body>
+
+   <h1 id="title">Survey Form</h1>
+
+   <p id="description">Helps us to know about you</p>
+
+   <div class="container">
+
+	<form class="form-horizontal" id="survey-form">
+
+		<label class="control-label col-sm-6" id="name-label">*Name:</label>
+		<input class="col-sm-3" id="name" name="name" type="text" placeholder="Enter your name" required="true"><br>
+		
+		<br>
+
+		<label class="control-label col-sm-6" id="email-label">*Email:</label>
+		<input class="col-sm-3" id="email" name="email" type="email" placeholder="Enter your email" required="true"><br>
+		
+		<br>
+
+		<label class="control-label col-sm-6" id="number-label">*Age:</label>
+		<input class="col-sm-3" id="number" type="number" name="quantity" min="1" max="100" placeholder="Enter your Age" required="true"><br>
+
+		<br>
+
+		<label class="control-label col-sm-6" id="branch">Which Branch do you belong to :</label>
+		<select class="col-sm-3" id="dropdown">
+  			<option>None</option>
+  			<option>CSE</option>
+  			<option>ECE</option>
+  			<option>EEE</option>
+  			<option>MECH</option>
+  			<option>CIVIL</option>
+		</select><br>
+
+		<br>
+
+		<label class="control-label col-sm-6" id="year">Which year you are currently studing :</label>
+		<div class="col-sm-3" id="radio">
+			<input name="year" type="radio"><label style="padding-left: 10px;">Year - 1</label><br>
+			<input name="year" type="radio"><label style="padding-left: 10px;">Year - 2</label><br>
+			<input name="year" type="radio"><label style="padding-left: 10px;">Year - 3</label><br>
+			<input name="year" type="radio"><label style="padding-left: 10px;">Year - 4</label><br>
+		</div>
+
+		<br>
+
+		<label class="control-label col-sm-6" id="work">Companies which you like to work with :</label>
+		<div class="col-sm-3" id="checkbox">
+			<input type="checkbox" name="future" value="company"><label style="padding-left: 10px;">Google</label><br>
+			<input type="checkbox" name="future" value="company"><label style="padding-left: 10px;">Apple</label><br>
+			<input type="checkbox" name="future" value="company"><label style="padding-left: 10px;">Microsoft</label><br>
+			<input type="checkbox" name="future" value="company"><label style="padding-left: 10px;">Amazon</label><br>
+			<input type="checkbox" name="future" value="company"><label style="padding-left: 10px;">Flipcart</label><br>
+			<input type="checkbox" name="future" value="company"><label style="padding-left: 10px;">Facebook</label><br>
+		</div>
+
+		<br>
+
+		<label class="control-label col-sm-6" id="comment">Comments :</label>
+		<textarea class="col-sm-3" id="textarea" name="message" placeholder="Enter your comment.."></textarea><br><br>
+
+		<br>
+
+		<input class="col-sm-offset-6 col-sm-6" id="submit" type="submit" value="Submit">
+		
+	</form> 
+
+   </div>
+
+
+</body>
+
+
+</html>

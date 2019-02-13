@@ -1,0 +1,72 @@
+
+
+body{
+	margin: 0;
+	padding: 0;
+	background-color: ;
+}
+
+.container{
+	padding: 15px;
+	margin: 20px;
+	margin-left: 10%;
+	margin-right: 10%;
+	background-color: white;
+	border-radius: 10px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-weight: normal;
+	border: 30px solid black;
+	overflow: none;
+}
+
+#title{
+	color: black;
+	text-align: center;
+	font-size: 50px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+#description{
+	text-align: center;
+	font-size: 20px;
+}
+
+
+#survey-form{
+	font-size: 15px;
+}
+
+
+#textarea{
+	height: 100px;
+}
+
+#submit{
+	margin-top: 25px;
+	width: 150px;
+	height: 50px;
+	border-radius: 55px;
+	border: 1px;
+	background-color: #ff1967;
+	color: white;
+	font-size: 20px;
+}
+
+#submit:hover{
+	opacity: 0.8;
+}
+
+
+
+#name,#email,#number,#dropdown,#textarea{
+	border: 1px solid black;
+}
+
+#name-label,#email-label,#number-label,#branch,#year,#work,#comment,#name,#email,#number,#dropdown,#radio,#checkbox,#textarea{
+	margin-top: 10px;
+}
+
+
+#name,#email,#number,#dropdown,#radio,#checkbox,#textarea{
+	margin-top: 20px;
+}

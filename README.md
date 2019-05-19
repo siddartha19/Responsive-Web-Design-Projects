@@ -16,11 +16,11 @@ This repository contains all of the source code releated to Responsive-Web-Desig
 
 # Outputs :
 
-* [Project-1](https://siddartha19.github.io/Responsive-Web-Design/Project%201/project1.html)
-* [Project-2](https://siddartha19.github.io/Responsive-Web-Design/Project%202/project2.html)
-* [Project-3](https://siddartha19.github.io/Responsive-Web-Design/Project%203/project3.html)
-* [Project-4](https://siddartha19.github.io/Responsive-Web-Design/Project%204/project4.html)
-* [Project-5](https://siddartha19.github.io/Responsive-Web-Design/Project%205/project5.html)
+* [Project-1](https://siddartha19.github.io/Responsive-Web-Design-Projects/Project%201/project1.html)
+* [Project-2](https://siddartha19.github.io/Responsive-Web-Design-Projects/Project%202/project2.html)
+* [Project-3](https://siddartha19.github.io/Responsive-Web-Design-Projects/Project%203/project3.html)
+* [Project-4](https://siddartha19.github.io/Responsive-Web-Design-Projects/Project%204/project4.html)
+* [Project-5](https://siddartha19.github.io/Responsive-Web-Design-Projects/Project%205/project5.html)
 
 
 

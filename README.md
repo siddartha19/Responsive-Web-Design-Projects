@@ -5,7 +5,7 @@ This repository contains all of the source code releated to Responsive-Web-Desig
 ![Course Completion certificate](https://github.com/siddartha19/Responsive-Web-Design/blob/master/Responsive%20Web%20Design.png)
 
 
-# Assignments :
+# Projects :
 
 * Project-1 - Build a Tribute Page
 * Project-2 - Build a Survey Form
